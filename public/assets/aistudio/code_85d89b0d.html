@@ -1,0 +1,1025 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Grato Jalebi — Lahore · Since the First Spiral | Haute Confectionery</title>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS with custom configuration -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline": "#857373",
+            "antique-amber": "#C27803",
+            "soft-almond": "#EFE8DC",
+            "secondary": "#904d00",
+            "secondary-container": "#fe932c",
+            "surface-dim": "#dbdad6",
+            "primary-container": "#4a151b",
+            "on-background": "#1b1c1a",
+            "tertiary-container": "#332420",
+            "surface-container-low": "#f5f3ef",
+            "secondary-fixed": "#ffdcc3",
+            "on-tertiary": "#ffffff",
+            "inverse-surface": "#30312e",
+            "on-primary-container": "#c6797d",
+            "on-surface-variant": "#534343",
+            "surface-variant": "#e4e2de",
+            "deep-burgundy-night": "#1F0709",
+            "inverse-on-surface": "#f2f0ed",
+            "on-primary": "#ffffff",
+            "tertiary-fixed": "#f7ddd6",
+            "on-secondary-container": "#663500",
+            "surface-bright": "#fbf9f5",
+            "inverse-primary": "#ffb3b6",
+            "surface": "#fbf9f5",
+            "on-secondary": "#ffffff",
+            "honey-gold": "#F59E0B",
+            "tertiary-fixed-dim": "#dac1bb",
+            "surface-tint": "#8e4a4f",
+            "background": "#fbf9f5",
+            "on-primary-fixed-variant": "#713438",
+            "error-container": "#ffdad6",
+            "surface-container-high": "#eae8e4",
+            "secondary-fixed-dim": "#ffb77d",
+            "on-error": "#ffffff",
+            "surface-container": "#efeeea",
+            "primary-fixed-dim": "#ffb3b6",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-fixed": "#3a0910",
+            "surface-container-highest": "#e4e2de",
+            "tertiary": "#1c100c",
+            "espresso-charcoal": "#1C1412",
+            "on-tertiary-fixed-variant": "#54433e",
+            "primary-fixed": "#ffdada",
+            "on-tertiary-container": "#a08a84",
+            "error": "#ba1a1a",
+            "creamy-ivory": "#F8F4EC",
+            "on-error-container": "#93000a",
+            "on-tertiary-fixed": "#261814",
+            "on-secondary-fixed": "#2f1500",
+            "on-surface": "#1b1c1a",
+            "on-secondary-fixed-variant": "#6e3900",
+            "outline-variant": "#d8c1c1",
+            "primary": "#2e0208",
+            "saffron-mahogany": "#2E0B0E"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-desktop": "4rem",
+            "margin-tablet": "2rem",
+            "gutter": "1.5rem",
+            "space-lg": "1.75rem",
+            "gutter-desktop": "2.5rem",
+            "space-2xl": "5rem",
+            "space-xs": "0.25rem",
+            "margin": "1rem",
+            "space-xl": "3rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "display-hero-mobile": ["Playfair Display"],
+            "headline-sm": ["Playfair Display"],
+            "label-badge": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display-hero": ["Playfair Display"],
+            "quote-editorial": ["Playfair Display"],
+            "headline-lg-mobile": ["Playfair Display"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-md": ["Playfair Display"],
+            "body-md": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "headline-lg": ["Playfair Display"]
+          },
+          "fontSize": {
+            "display-hero-mobile": ["38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }],
+            "label-badge": ["10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "quote-editorial": ["20px", { "lineHeight": "32px", "fontWeight": "400" }],
+            "headline-lg-mobile": ["30px", { "lineHeight": "38px", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 5px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #C27803;
+      border-radius: 4px;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: 200%;
+      animation: marquee 28s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface antialiased selection:bg-antique-amber/30 selection:text-primary custom-scroll">
+<!-- TOP APP BAR / BRAND HEADER (Shared Component Anchor) -->
+<header class="bg-deep-burgundy-night/90 dark:bg-deep-burgundy-night/95 backdrop-blur-md text-honey-gold dark:text-honey-gold docked full-width top-0 sticky z-50 border-b border-antique-amber/20 shadow-[0_4px_20px_-2px_rgba(46,11,14,0.3)]">
+<div class="flex justify-between items-center w-full px-margin-tablet lg:px-margin-desktop py-space-sm max-w-7xl mx-auto">
+<!-- Brand Logo Anchor -->
+<a class="flex flex-col group" href="#">
+<span class="text-headline-sm font-headline-sm tracking-widest text-honey-gold uppercase font-bold">GRATO JALEBI</span>
+<span class="text-label-badge font-label-badge text-soft-almond/70 tracking-widest uppercase">Lahore · Since the first spiral</span>
+</a>
+<!-- Desktop Nav Links -->
+<nav class="hidden lg:flex items-center gap-space-lg text-label-md font-label-md">
+<a class="text-honey-gold border-b border-honey-gold pb-1 transition-colors" href="#menu">Menu</a>
+<a class="text-creamy-ivory/80 hover:text-honey-gold transition-colors" href="#ritual">Artisanal Craft</a>
+<a class="text-creamy-ivory/80 hover:text-honey-gold transition-colors" href="#branches">Lahore Branches</a>
+<a class="text-creamy-ivory/80 hover:text-honey-gold transition-colors" href="#reviews">Reviews</a>
+<a class="text-creamy-ivory/80 hover:text-honey-gold transition-colors" href="#story">Story</a>
+</nav>
+<!-- Trailing Primary & Actions -->
+<div class="flex items-center gap-space-md">
+<a class="hidden sm:inline-flex items-center gap-1.5 text-label-md font-label-md text-creamy-ivory/90 hover:text-honey-gold transition-colors" href="tel:+923057437708">
+<span class="material-symbols-outlined text-honey-gold text-lg">call</span>
+          +92 305 743 7708
+        </a>
+<a class="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-honey-gold to-antique-amber text-espresso-charcoal px-space-md py-2 rounded font-label-md text-label-md font-bold tracking-wide shadow-sm hover:brightness-105 active:scale-95 transition-all" href="https://wa.me/923057437708" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+          Order on WhatsApp
+        </a>
+<!-- Drawer Cart Trigger with Dynamic Badge -->
+<button aria-label="Open Shopping Bag" class="relative p-2 text-creamy-ivory hover:text-honey-gold active:scale-95 transition-transform" id="openCartBtn">
+<span class="material-symbols-outlined text-2xl">shopping_bag</span>
+<span class="absolute top-1 right-0 bg-honey-gold text-espresso-charcoal text-[10px] font-bold h-4 w-4 rounded-full flex items-center justify-center font-label-badge ring-2 ring-saffron-mahogany" id="cartCountBadge">0</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden bg-deep-burgundy-night py-space-xl lg:py-space-2xl border-b border-antique-amber/20 min-h-[540px] sm:min-h-[600px] lg:min-h-[660px] flex flex-col justify-between">
+  <!-- Expansive Full-Bleed Jalebi Background Image -->
+  <div class="absolute inset-0 z-0 pointer-events-none select-none overflow-hidden">
+    <img alt="Grato Jalebi Background Spirals" class="w-full h-full object-cover opacity-20 filter brightness-105 scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1VyZP3CKTWDe5y9AzuvfcPcLPWbdRNq0AM-FRJpUS1e4JIu4cXd7LQHpyg0FSHi8xTd9moTpBiielmysGnIhwvzhxJtenqMWl54sOQ3ZlQby5xprcXyY6l9c5QZ85Ixus_YQlID_PeVxXLEUD43UcRfsW_lKYWsZDBwdABNcuqhIK90hKVy6cBrSfBjDvCnPeaJJImLC7n7Ac2DphOygtZ8gWFib4FP8EBPo_LpsX9RC-W4nAWkgRQYQb0">
+    <!-- Warm luxury ambient and dark gradient vignettes -->
+    <div class="absolute inset-0 bg-gradient-to-b from-deep-burgundy-night/95 via-deep-burgundy-night/85 to-deep-burgundy-night/95"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-saffron-mahogany/70 via-transparent to-saffron-mahogany/70"></div>
+  </div>
+
+  <!-- Subtle ambient decorative glow behind content -->
+  <div class="absolute top-1/4 left-1/2 w-96 h-96 bg-honey-gold/15 rounded-full blur-3xl pointer-events-none -translate-x-1/2 -translate-y-1/2 z-0"></div>
+  <div class="absolute bottom-10 right-1/4 w-96 h-96 bg-antique-amber/15 rounded-full blur-3xl pointer-events-none z-0"></div>
+
+  <!-- Hero Content: Elegant Centered Editorial Layout -->
+  <div class="max-w-5xl mx-auto px-margin-tablet lg:px-margin-desktop text-center flex flex-col items-center space-y-space-md relative z-10 my-auto pt-space-md pb-space-sm">
+    <!-- Pure Desi Ghee Pill Badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-saffron-mahogany/80 backdrop-blur-md border border-antique-amber/40 rounded-full shadow-md">
+      <span class="material-symbols-outlined text-honey-gold text-xs animate-pulse">sparkles</span>
+      <span class="text-label-badge font-label-badge tracking-widest text-honey-gold uppercase font-bold">PURE DESI GHEE · FRIED TO ORDER</span>
+    </div>
+    
+    <!-- Main Headline -->
+    <h1 class="text-display-hero-mobile lg:text-display-hero font-display-hero text-creamy-ivory tracking-tight leading-tight max-w-4xl">
+      The Art of <span class="italic font-normal text-honey-gold drop-shadow-[0_2px_10px_rgba(245,158,11,0.35)]">Perfect</span> Jalebi.
+    </h1>
+    
+    <!-- Subtitle -->
+    <p class="text-body-lg font-body-lg text-soft-almond/90 max-w-2xl mx-auto leading-relaxed">
+      Freshly prepared. Perfectly crispy. Impossible to resist. Hot jalebi, hand-folded samosas and traditional savouries — made in disciplined micro-batches, all day long.
+    </p>
+
+    <!-- Metrics Micro-Cards Row -->
+    <div class="grid grid-cols-3 gap-space-sm sm:gap-space-md pt-2 w-full max-w-xl mx-auto">
+      <div class="p-3.5 bg-saffron-mahogany/60 backdrop-blur-md border border-antique-amber/30 rounded-lg shadow-sm hover:border-antique-amber/60 transition-colors group text-center">
+        <span class="block text-headline-sm font-headline-sm text-honey-gold font-bold group-hover:scale-105 transition-transform">90s</span>
+        <span class="text-body-sm font-body-sm text-soft-almond/80 font-medium">in pure desi ghee</span>
+      </div>
+      <div class="p-3.5 bg-saffron-mahogany/60 backdrop-blur-md border border-antique-amber/30 rounded-lg shadow-sm hover:border-antique-amber/60 transition-colors group text-center">
+        <span class="block text-headline-sm font-headline-sm text-honey-gold font-bold group-hover:scale-105 transition-transform">24h</span>
+        <span class="text-body-sm font-body-sm text-soft-almond/80 font-medium">slow fermentation</span>
+      </div>
+      <div class="p-3.5 bg-saffron-mahogany/60 backdrop-blur-md border border-antique-amber/30 rounded-lg shadow-sm hover:border-antique-amber/60 transition-colors group text-center">
+        <span class="block text-headline-sm font-headline-sm text-honey-gold font-bold group-hover:scale-105 transition-transform">0 min</span>
+        <span class="text-body-sm font-body-sm text-soft-almond/80 font-medium">never sits or stales</span>
+      </div>
+    </div>
+
+    <!-- CTAs & Live Batch Status Pill -->
+    <div class="flex flex-wrap items-center justify-center gap-space-md pt-space-sm">
+      <a class="inline-flex items-center gap-2 bg-gradient-to-r from-honey-gold to-antique-amber text-espresso-charcoal px-space-lg py-3 rounded-lg text-label-lg font-label-lg font-bold shadow-[0_4px_16px_-2px_rgba(194,120,3,0.35)] hover:brightness-105 active:scale-95 transition-all" href="https://wa.me/923057437708?text=Hello%20Grato%20Jalebi,%20I%20would%20like%20to%20place%20an%20order." target="_blank">
+        <span class="material-symbols-outlined text-lg">chat</span>
+        Order on WhatsApp
+      </a>
+      <a class="inline-flex items-center gap-2 bg-primary-container/80 backdrop-blur-sm text-creamy-ivory px-space-lg py-3 rounded-lg text-label-lg font-label-lg border border-antique-amber/40 hover:bg-saffron-mahogany transition-all shadow-[0_4px_20px_-2px_rgba(46,11,14,0.3)] active:scale-95" href="#menu">
+        Explore Our Menu
+        <span class="material-symbols-outlined text-sm text-honey-gold">arrow_forward</span>
+      </a>
+    </div>
+
+    <!-- Live Batch Info Badge -->
+    <div class="inline-flex items-center gap-2 px-3 py-1 bg-deep-burgundy-night/80 backdrop-blur-sm border border-antique-amber/30 text-soft-almond/80 text-label-badge font-label-badge rounded-full uppercase pt-1">
+      <span class="w-1.5 h-1.5 rounded-full bg-honey-gold animate-ping"></span>
+      <span class="">Batch #42 · Fresh from Kadhai · Rs. 1,600 / kg</span>
+    </div>
+  </div>
+
+  <!-- Refined Marquee Ticker -->
+  <div class="border-y border-antique-amber/20 bg-deep-burgundy-night/90 backdrop-blur-sm py-3 overflow-hidden select-none relative z-10 w-full mt-space-md">
+    <div class="animate-marquee whitespace-nowrap text-label-lg font-label-lg tracking-widest uppercase text-honey-gold font-semibold flex items-center gap-6">
+      <span class="">FRESH</span> <span class="">•</span>
+      <span class="">HOT</span> <span class="">•</span>
+      <span class="">CRISPY</span> <span class="">•</span>
+      <span class="">SWEET</span> <span class="">•</span>
+      <span class="">AUTHENTIC</span> <span class="">•</span>
+      <span class="">IRRESISTIBLE</span> <span class="">•</span>
+      <span class="">HAND-MADE</span> <span class="">•</span>
+      <span class="">PURE DESI GHEE</span> <span class="">•</span>
+      <span class="">FRESH</span> <span class="">•</span>
+      <span class="">HOT</span> <span class="">•</span>
+      <span class="">CRISPY</span> <span class="">•</span>
+      <span class="">SWEET</span> <span class="">•</span>
+      <span class="">AUTHENTIC</span> <span class="">•</span>
+      <span class="">IRRESISTIBLE</span> <span class="">•</span>
+      <span class="">HAND-MADE</span> <span class="">•</span>
+      <span class="">PURE DESI GHEE</span> <span class="">•</span>
+    </div>
+  </div>
+</section>
+<!-- SECTION: OUR STORY / THE RITUAL -->
+<section class="py-space-2xl bg-creamy-ivory border-b border-antique-amber/15" id="story">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-antique-amber font-bold">The Heritage Narrative</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-espresso-charcoal leading-tight">
+              Tradition in <span class="italic font-normal text-antique-amber">every spiral.</span>
+</h2>
+<div class="w-12 h-0.5 bg-antique-amber"></div>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+              Grato Jalebi began with one belief: the jalebi deserves the same reverence as any fine dessert. Not a street-corner afterthought — a ritual.
+            </p>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+              Our batter ferments overnight. Our syrup is perfumed with saffron and cardamom. Our samosas are folded by hand, batch after batch, so the one you bite into left the oil minutes ago.
+            </p>
+<p class="text-quote-editorial font-quote-editorial italic text-saffron-mahogany pt-2">
+              “Classic taste, held to a modern standard.”
+            </p>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="bg-surface p-space-lg border border-antique-amber/20 rounded shadow-sm hover:border-antique-amber/60 transition-colors">
+<span class="material-symbols-outlined text-antique-amber text-3xl mb-3">auto_awesome</span>
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal mb-2">Wild Overnight Culture</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Flour, artisan curd, and natural yeast left to aerate for 24 hours to cultivate our signature citrusy tang.</p>
+</div>
+<div class="bg-surface p-space-lg border border-antique-amber/20 rounded shadow-sm hover:border-antique-amber/60 transition-colors">
+<span class="material-symbols-outlined text-antique-amber text-3xl mb-3">local_fire_department</span>
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal mb-2">The 90-Second Flash Fry</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Cooked exclusively in bubbling desi ghee at an exacting temperature to form an amber shell like tempered sugar glass.</p>
+</div>
+<div class="bg-surface p-space-lg border border-antique-amber/20 rounded shadow-sm hover:border-antique-amber/60 transition-colors">
+<span class="material-symbols-outlined text-antique-amber text-3xl mb-3">spa</span>
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal mb-2">Kashmir Saffron Bath</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Dipped in pure cardamom and saffron nectar just long enough to saturate the hollow spiral without losing crunch.</p>
+</div>
+<div class="bg-surface p-space-lg border border-antique-amber/20 rounded shadow-sm hover:border-antique-amber/60 transition-colors">
+<span class="material-symbols-outlined text-antique-amber text-3xl mb-3">pan_tool</span>
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal mb-2">Small-Batch Integrity</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Fried continuously all day. We do not maintain warmers; every box is filled with confections fried in real-time.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: INTERACTIVE MENU & ORDERING -->
+<section class="py-space-2xl bg-surface border-b border-antique-amber/15" id="menu">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-antique-amber font-bold">Small Batches Only</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-espresso-charcoal mt-1">
+            Made hot. <span class="italic font-normal text-antique-amber">Served fast.</span>
+</h2>
+<p class="text-body-md font-body-md text-on-surface-variant mt-2">
+            Every item leaves the fryer in disciplined micro-batches. When it sells out, we draw more fresh spirals and samosas — never letting anything sit.
+          </p>
+<!-- Category Filter Micro-Toggles -->
+<div class="flex flex-wrap justify-center gap-2 mt-space-md" id="menuFilters">
+<button class="filter-btn active px-4 py-1.5 rounded-full text-label-md font-label-md bg-primary-container text-creamy-ivory border border-antique-amber/40 shadow-sm" data-category="all">All Items</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-label-md font-label-md bg-creamy-ivory text-espresso-charcoal hover:bg-soft-almond border border-antique-amber/20 transition-colors" data-category="jalebi">Signature Jalebi</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-label-md font-label-md bg-creamy-ivory text-espresso-charcoal hover:bg-soft-almond border border-antique-amber/20 transition-colors" data-category="samosas">Hand-Folded Samosas</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-label-md font-label-md bg-creamy-ivory text-espresso-charcoal hover:bg-soft-almond border border-antique-amber/20 transition-colors" data-category="savouries">Savouries &amp; Snacks</button>
+<button class="filter-btn px-4 py-1.5 rounded-full text-label-md font-label-md bg-creamy-ivory text-espresso-charcoal hover:bg-soft-almond border border-antique-amber/20 transition-colors" data-category="combos">Family Combos</button>
+</div>
+</div>
+<!-- Product Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg" id="menuGrid">
+<!-- Item 1: Signature Jalebi -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="jalebi">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Signature Saffron Jalebi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VyZP3CKTWDe5y9AzuvfcPcLPWbdRNq0AM-FRJpUS1e4JIu4cXd7LQHpyg0FSHi8xTd9moTpBiielmysGnIhwvzhxJtenqMWl54sOQ3ZlQby5xprcXyY6l9c5QZ85Ixus_YQlID_PeVxXLEUD43UcRfsW_lKYWsZDBwdABNcuqhIK90hKVy6cBrSfBjDvCnPeaJJImLC7n7Ac2DphOygtZ8gWFib4FP8EBPo_LpsX9RC-W4nAWkgRQYQb0">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-saffron-mahogany/90 text-honey-gold text-label-badge font-label-badge uppercase rounded">Best Seller</span>
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Signature Saffron Jalebi</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Crispy, paper-thin golden coils steeped in saffron and crushed green cardamom nectar.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 1,600 <span class="text-xs font-normal">/ kg</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Signature Saffron Jalebi', 1600)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 2: Sugar Free Jalebi -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="jalebi">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Sugar Free Jalebi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPxlEva09WO1uequbsuPgp59w3hybWOlq6x1EL3A-S7oAEBVZL83IDfLltQ7CIpWo9mwQHQ4vK1_Cd4ZjLaxLkfYIAiqy-RW3PfoszaC9dxD6hLxgxtimnJ5Tz_r3mfc0TSjmhIlZx0UhvUuIPeqW1JBiZXNxzteZTcAHTA3-2n9ILo7-FhZnWVS0oUvXBd_QP5iNE-J_FTn59mWsbG7yU2RjtEycfMmweooukjSaM3dqyNLEr1Sxi">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-secondary-container/90 text-espresso-charcoal text-label-badge font-label-badge uppercase rounded font-bold">Guilt Free</span>
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Sugar Free Jalebi</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">The identical crunch, sweetened naturally with organic date and stevia syrup bath.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 1,600 <span class="text-xs font-normal">/ kg</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Sugar Free Jalebi', 1600)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 3: Aloo Samosa -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="samosas">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Hand-Folded Aloo Samosa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrU9rfXpTX8E_onl7TCM_FmlVEH8WE-JQ2W5AFACwdozm1MWFmJIv1Lae1XdpoOn7sdKjMtJvnHBEwcwlS_rjUg8Wn-E2KS2vAeXUT02DIsN8ygSOT9mFyF-WEYZmwH7izh6rBJ9cSF4Eckh2CNc8jNVsnq4ap2A7esg0ao4wTP_xDi2nAEsJYMhJ8hIDv8Y-OOb_a5R6Wft4wJkeDGhCyTqjBzfQdrJVpDXJd0WLrpf1QuD4WW3Kt">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-saffron-mahogany/90 text-honey-gold text-label-badge font-label-badge uppercase rounded">Classic Crust</span>
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Aloo Samosa</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Spiced heirloom potato, fresh green chilli and roasted cumin inside a flaky hand-pinched crust.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 70 <span class="text-xs font-normal">each</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Aloo Samosa', 70)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 4: Chicken Samosa -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="samosas">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Artisanal Chicken Samosa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQ_KOCVuyPejgHIm9o-ETTFRbqr8Jq2txdp5JihqKflFBduNj6InIzJMt3a5ZL2ZxTWIfmWIr-3Kqogp-CwKaAKF1O6uE9sFzFRSCjN1Be9UgqQjH1kRKX903oYMdRCdp3ZQC3KL51KIS1j9yQ5r1wFfKNzj92azN-2UEM-YTFx9IjUXqEDHB1zaCXMDCgHHyTq9UPjBsMo4NgdN-wQmL1wRZNiP3zEErhjRs92p804aCDBS1R80hF">
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Chicken Samosa</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Tender shredded chicken sautéed with fresh cilantro, sweet onion and coarse black pepper.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 100 <span class="text-xs font-normal">each</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Chicken Samosa', 100)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 5: Pakoray -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="savouries">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Crisp Fried Pakoray" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjyFtLWRm0yAxxXd7Q2YVDYuaWdIyuIGM8LrrxURreKwbGv6eRYDWuYV9lOJWJJn_Rlm5k6uY0ocn6YuDXOvKUiIufz74JSCVtpGbBF1yYGFJu2Ozflt6wzTblwmy9vNOheA6rEXVcWNyDYmYzkSLtdtm-PIr0D1iAxYmS_Kbxi2rxvMfWKgSd-jvoptjznXCsKxO-7y_JmXaIYiiA6hEiJIRFiwOINOdqydIdcZUBLvh2PGqc6Q9q">
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Crispy Pakoray</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Seasoned gram-flour fritters with thin potato cuts, mint, and crushed coriander seeds.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 720 <span class="text-xs font-normal">/ kg</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Crispy Pakoray', 720)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 6: Namak Paray -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="savouries">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Namak Paray Diamonds" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNO6tMREXqgAkPc4O7pXNPxZaJj0H0o6yyKaku8NdFKZZEy9O01QfnnUqqmgcAy7ubm3lB1JB6LJCZNgNgSOxj2bdC9AzjIzQVQAx-vessR-2vNg7sU5QxSfXXj_6Ydj-1SglpZuvjL3txaPzyTiCfjWUmiwV3DDvwrOTLe575UBbf2eCdBZAZ5a-50dD9vhy3V1Ot8eIPJ9J1uTg85ik3f26E6L9iIWFki8VE02-1BY-IUBrFqbZ4">
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Namak Paray</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Diamond-cut pastry seasoned with ajwain carom and sea salt. The definitive chai companion.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 720 <span class="text-xs font-normal">/ kg</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Namak Paray', 720)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 7: The Evening Combo -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="combos">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="The Evening Combo Box" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvKRJTs1vwsdIUFYevK7Ml0aNwWnqkRYfR7Qv40EMCEyY40nlzJMQO-NGLNHhaD2wifVZnuPZYJsy3M2BCXzW5RDLz2w93xZupMKTt_Xcto_-aWwwv10tnHn3z9CTk7LuWH9s2zAdOhjxNGv6c36vCU7b7yldQ5CZCul4aHJf1v6qZCC1ma1_MQ_yXPrl797PASEb_l5qEKceHoXWKQ28pUk3raQvYFJY_IJQnUZMB2btTV0aNYxHB">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-antique-amber text-espresso-charcoal text-label-badge font-label-badge uppercase rounded font-bold">Patron Favorite</span>
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">The Evening Combo</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">0.5 kg hot jalebi, six hand-folded samosas, and house tamarind-mint chutney.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 1,290 <span class="text-xs font-normal">/ box</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('The Evening Combo', 1290)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+<!-- Item 8: Confectioner Gift Box -->
+<article class="menu-card bg-creamy-ivory border border-antique-amber/20 rounded p-space-sm flex flex-col justify-between hover:shadow-[0_12px_32px_-4px_rgba(74,21,27,0.12)] hover:border-antique-amber/50 transition-all duration-300 group" data-cat="combos">
+<div>
+<div class="aspect-[4/3] rounded overflow-hidden relative mb-space-sm">
+<img alt="Grato Imperial Confectioner Box" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VO4pj6qljc51K8V4sjzWpv2G8xw9coZ4GnvvYTlr7JM2WGsA3hXMVHVqCfTglhbgtq_S_JbBNkLegNcBvXoBsxtkIr-GmboNtxeVIP65WxsjCx50G1hQGqekv_PICy-wF0pA9JZvdh9jePNZxYen0hsQnZqJrWhee-hInbVunVZYPe3XRWLiV9U01yXgsAixTPcF6_XMBJWV5R8PWC-vxsff4Hfl8oLsV3miOJBiS6A6R5u_HhqlASKQ">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-saffron-mahogany text-honey-gold text-label-badge font-label-badge uppercase rounded font-bold">Royal Gift Box</span>
+</div>
+<div class="px-1">
+<h3 class="text-headline-sm font-headline-sm text-espresso-charcoal">Grato Confectioner Gift Box</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">1 kg premium jalebi in gold-embossed burgundy tin with velvet ribbon finish.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-antique-amber/15 flex items-center justify-between px-1">
+<div>
+<span class="text-label-badge font-label-badge text-on-surface-variant block">PRICE</span>
+<span class="text-label-lg font-label-lg font-bold text-saffron-mahogany">Rs. 2,100 <span class="text-xs font-normal">/ box</span></span>
+</div>
+<button class="px-3 py-1.5 bg-primary-container text-creamy-ivory text-label-md font-label-md rounded border border-antique-amber/40 hover:bg-saffron-mahogany active:scale-95 transition-all flex items-center gap-1" onclick="addToCart('Grato Confectioner Gift Box', 2100)">
+<span class="material-symbols-outlined text-sm">add</span> Add
+              </button>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SECTION: ARTISANAL CRAFT - 'FROM BATTER TO BITE' -->
+<section class="py-space-2xl bg-saffron-mahogany text-creamy-ivory border-b border-antique-amber/20 relative overflow-hidden" id="ritual">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop">
+<div class="max-w-xl mb-space-xl">
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-honey-gold font-bold">The Five Pillars of Mastery</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-creamy-ivory mt-1">
+            From batter <span class="italic font-normal text-honey-gold">to bite.</span>
+</h2>
+<p class="text-body-md font-body-md text-soft-almond/80 mt-2">
+            No machinery. No chemical leaveners. A meticulous ritual passed through three generations of sweet masters.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-md">
+<div class="p-space-md bg-deep-burgundy-night/60 border border-antique-amber/20 rounded relative flex flex-col justify-between">
+<span class="text-display-hero-mobile font-headline-sm text-honey-gold/30 block mb-4">01</span>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold mb-1">The Mix</h3>
+<p class="text-body-sm font-body-sm text-soft-almond/80">Fine flour, aged yoghurt and time. Left to naturally ferment overnight until the batter breathes.</p>
+</div>
+</div>
+<div class="p-space-md bg-deep-burgundy-night/60 border border-antique-amber/20 rounded relative flex flex-col justify-between">
+<span class="text-display-hero-mobile font-headline-sm text-honey-gold/30 block mb-4">02</span>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold mb-1">The Spiral</h3>
+<p class="text-body-sm font-body-sm text-soft-almond/80">Piped free-hand into bubbling ghee through hand-stitched linen. Drawn by muscle memory, never cast.</p>
+</div>
+</div>
+<div class="p-space-md bg-deep-burgundy-night/60 border border-antique-amber/20 rounded relative flex flex-col justify-between">
+<span class="text-display-hero-mobile font-headline-sm text-honey-gold/30 block mb-4">03</span>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold mb-1">The Fry</h3>
+<p class="text-body-sm font-body-sm text-soft-almond/80">Ninety seconds in shallow desi ghee at the precise thermal threshold that produces glass-brittle walls.</p>
+</div>
+</div>
+<div class="p-space-md bg-deep-burgundy-night/60 border border-antique-amber/20 rounded relative flex flex-col justify-between">
+<span class="text-display-hero-mobile font-headline-sm text-honey-gold/30 block mb-4">04</span>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold mb-1">The Syrup</h3>
+<p class="text-body-sm font-body-sm text-soft-almond/80">A brisk dip in simmering saffron-infused syrup. Long enough to sweeten the core, brief enough to stay crisp.</p>
+</div>
+</div>
+<div class="p-space-md bg-deep-burgundy-night/60 border border-antique-amber/20 rounded relative flex flex-col justify-between">
+<span class="text-display-hero-mobile font-headline-sm text-honey-gold/30 block mb-4">05</span>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold mb-1">The Bite</h3>
+<p class="text-body-sm font-body-sm text-soft-almond/80">Boxed piping hot and placed in your hands within minutes. The outer crust shatters instantly.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: VERIFIED LAHORE BRANCHES -->
+<section class="py-space-2xl bg-surface border-b border-antique-amber/15" id="branches">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl">
+<div>
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-antique-amber font-bold">Lahore Presence</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-espresso-charcoal mt-1">
+              Find your nearest <span class="italic font-normal text-antique-amber">spiral.</span>
+</h2>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant max-w-md mt-2 md:mt-0">
+            Four flagship kitchens active throughout Lahore. Every branch maintains its own dedicated fryers and batter fermentation cellar.
+          </p>
+</div>
+<!-- Branch Selector Tabs & Dynamic Display -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- Tabs List -->
+<div class="lg:col-span-4 flex flex-col gap-2">
+<button class="branch-tab active text-left p-4 rounded border transition-all flex items-center justify-between bg-primary-container text-creamy-ivory border-antique-amber/40 shadow-sm" data-branch="walton">
+<div>
+<span class="block text-headline-sm font-headline-sm">Grato Walton</span>
+<span class="text-body-sm font-body-sm opacity-80">New Super Town, Walton Road</span>
+</div>
+<span class="material-symbols-outlined text-honey-gold">chevron_right</span>
+</button>
+<button class="branch-tab text-left p-4 rounded border transition-all flex items-center justify-between bg-creamy-ivory text-espresso-charcoal border-antique-amber/20 hover:bg-soft-almond" data-branch="dha">
+<div>
+<span class="block text-headline-sm font-headline-sm">Grato DHA Phase 2</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Commercial Area, Phase 2</span>
+</div>
+<span class="material-symbols-outlined text-antique-amber">chevron_right</span>
+</button>
+<button class="branch-tab text-left p-4 rounded border transition-all flex items-center justify-between bg-creamy-ivory text-espresso-charcoal border-antique-amber/20 hover:bg-soft-almond" data-branch="johar">
+<div>
+<span class="block text-headline-sm font-headline-sm">Grato Johar Town</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Main Boulevard, Johar Town</span>
+</div>
+<span class="material-symbols-outlined text-antique-amber">chevron_right</span>
+</button>
+<button class="branch-tab text-left p-4 rounded border transition-all flex items-center justify-between bg-creamy-ivory text-espresso-charcoal border-antique-amber/20 hover:bg-soft-almond" data-branch="bahria">
+<div>
+<span class="block text-headline-sm font-headline-sm">Grato Bahria Town</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Sector C Commercial Area</span>
+</div>
+<span class="material-symbols-outlined text-antique-amber">chevron_right</span>
+</button>
+</div>
+<!-- Active Branch Card Display -->
+<div class="lg:col-span-8 bg-creamy-ivory border border-antique-amber/30 p-space-lg rounded-lg shadow-sm">
+<div class="space-y-space-md" id="branchDetails">
+<div class="flex flex-wrap items-center justify-between gap-2 border-b border-antique-amber/20 pb-space-sm">
+<div>
+<div class="inline-flex items-center gap-1.5 px-2 py-0.5 bg-antique-amber/15 text-saffron-mahogany rounded text-label-badge font-label-badge mb-1">
+<span class="w-1.5 h-1.5 rounded-full bg-antique-amber animate-ping"></span>
+                    LIVE FRYING IN DESI GHEE
+                  </div>
+<h3 class="text-headline-md font-headline-md text-espresso-charcoal" id="branchName">Grato Walton Flagship</h3>
+</div>
+<div class="text-right">
+<span class="text-label-badge font-label-badge text-on-surface-variant block uppercase">Operating Hours</span>
+<span class="text-body-md font-body-md font-semibold text-saffron-mahogany" id="branchHours">11:00 AM – 11:00 PM, Daily</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div>
+<span class="text-label-badge font-label-badge text-antique-amber uppercase font-bold block mb-1">Physical Location</span>
+<p class="text-body-md font-body-md text-espresso-charcoal" id="branchAddress">
+                    New Super Town, Walton Road, Lahore, Punjab, Pakistan
+                  </p>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">
+                    Landmark: Near Bhatta Chowk Crossing
+                  </p>
+</div>
+<div>
+<span class="text-label-badge font-label-badge text-antique-amber uppercase font-bold block mb-1">Direct Kitchen Dispatch</span>
+<p class="text-body-md font-body-md text-espresso-charcoal font-semibold">
+                    +92 305 743 7708
+                  </p>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">
+                    Estimated local delivery: 25 - 40 minutes in thermal insulated boxes.
+                  </p>
+</div>
+</div>
+<!-- Map and Quick Action Row -->
+<div class="pt-space-sm flex flex-wrap gap-space-md">
+<a class="inline-flex items-center gap-2 px-space-md py-2.5 rounded bg-surface border border-antique-amber/40 text-espresso-charcoal font-label-md text-label-md hover:bg-soft-almond transition-colors" href="https://maps.app.goo.gl/cCkJEqzaotv5K7Dm6" id="branchDirectionsLink" target="_blank">
+<span class="material-symbols-outlined text-antique-amber text-lg">location_on</span>
+                  Open Google Maps
+                </a>
+<a class="inline-flex items-center gap-2 px-space-lg py-2.5 rounded bg-primary-container text-creamy-ivory font-label-md text-label-md hover:bg-saffron-mahogany active:scale-95 transition-all" href="https://wa.me/923057437708?text=Order%20request%20from%20Walton%20Branch" id="branchOrderBtn" target="_blank">
+<span class="material-symbols-outlined text-honey-gold text-lg">chat</span>
+                  Order from this Branch
+                </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: EDITORIAL CUSTOMER LOVE & TESTIMONIALS -->
+<section class="py-space-2xl bg-creamy-ivory border-b border-antique-amber/15" id="reviews">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-xl mx-auto mb-space-xl">
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-antique-amber font-bold">Patron Chronicle</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-espresso-charcoal mt-1">
+            Word on <span class="italic font-normal text-antique-amber">the street.</span>
+</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-lg bg-surface border border-antique-amber/20 rounded flex flex-col justify-between shadow-sm">
+<span class="text-headline-lg font-quote-editorial text-antique-amber/40 select-none">“</span>
+<p class="text-quote-editorial font-quote-editorial italic text-espresso-charcoal mb-4 -mt-4">
+              Never eat such a delicious jalebi always love to eat Grato Jalebi.
+            </p>
+<div class="border-t border-antique-amber/15 pt-3">
+<span class="block text-label-md font-label-md text-saffron-mahogany font-bold">Mian M. Shahbaz Sharif</span>
+<span class="text-label-badge font-label-badge text-on-surface-variant uppercase">DHA Phase 5, Lahore</span>
+</div>
+</div>
+<div class="p-space-lg bg-surface border border-antique-amber/20 rounded flex flex-col justify-between shadow-sm">
+<span class="text-headline-lg font-quote-editorial text-antique-amber/40 select-none">“</span>
+<p class="text-quote-editorial font-quote-editorial italic text-espresso-charcoal mb-4 -mt-4">
+              The only jalebi in Lahore that still crackles when it reaches my house.
+            </p>
+<div class="border-t border-antique-amber/15 pt-3">
+<span class="block text-label-md font-label-md text-saffron-mahogany font-bold">Hamza S.</span>
+<span class="text-label-badge font-label-badge text-on-surface-variant uppercase">Bhatta Chowk, Lahore</span>
+</div>
+</div>
+<div class="p-space-lg bg-surface border border-antique-amber/20 rounded flex flex-col justify-between shadow-sm">
+<span class="text-headline-lg font-quote-editorial text-antique-amber/40 select-none">“</span>
+<p class="text-quote-editorial font-quote-editorial italic text-espresso-charcoal mb-4 -mt-4">
+              We order the evening combo every Friday. It has become a family ritual.
+            </p>
+<div class="border-t border-antique-amber/15 pt-3">
+<span class="block text-label-md font-label-md text-saffron-mahogany font-bold">The Qureshis</span>
+<span class="text-label-badge font-label-badge text-on-surface-variant uppercase">Johar Town, Lahore</span>
+</div>
+</div>
+<div class="p-space-lg bg-surface border border-antique-amber/20 rounded flex flex-col justify-between shadow-sm">
+<span class="text-headline-lg font-quote-editorial text-antique-amber/40 select-none">“</span>
+<p class="text-quote-editorial font-quote-editorial italic text-espresso-charcoal mb-4 -mt-4">
+              Sugar free jalebi that my father can actually eat. Truly unreal texture.
+            </p>
+<div class="border-t border-antique-amber/15 pt-3">
+<span class="block text-label-md font-label-md text-saffron-mahogany font-bold">Nida A.</span>
+<span class="text-label-badge font-label-badge text-on-surface-variant uppercase">Bahria Town, Lahore</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANNER: ONE MORE BITE CALLOUT -->
+<section class="py-space-xl bg-deep-burgundy-night text-creamy-ivory text-center relative overflow-hidden">
+<div class="max-w-4xl mx-auto px-margin-tablet">
+<span class="text-label-badge font-label-badge uppercase tracking-widest text-honey-gold">Fresh Kadhai Active</span>
+<h2 class="text-headline-lg-mobile lg:text-headline-lg font-headline-lg text-creamy-ivory mt-2">
+          The fryer is on. Your jalebi is thirty minutes away.
+        </h2>
+<p class="text-body-md font-body-md text-soft-almond/80 mt-2 max-w-lg mx-auto">
+          Fried in pure desi ghee and dispatched piping hot to your table anywhere in Lahore.
+        </p>
+<div class="mt-space-md flex justify-center gap-space-md">
+<a class="bg-gradient-to-r from-honey-gold to-antique-amber text-espresso-charcoal px-space-lg py-3 rounded font-label-lg text-label-lg font-bold shadow-md hover:brightness-105 active:scale-95 transition-all" href="https://wa.me/923057437708?text=Hello%20Grato%20Jalebi,%20I%20would%20like%20to%20order%20now!" target="_blank">
+            Order on WhatsApp Now
+          </a>
+</div>
+</div>
+</section>
+</main>
+<!-- SLIDE-OVER WHATSAPP CART DRAWER -->
+<div class="fixed inset-0 bg-espresso-charcoal/60 backdrop-blur-sm z-50 transition-opacity opacity-0 pointer-events-none duration-300" id="cartDrawerBackdrop"></div>
+<aside class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-creamy-ivory z-50 shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 border-l border-antique-amber/30" id="cartDrawer">
+<!-- Drawer Header -->
+<div class="bg-saffron-mahogany text-creamy-ivory p-space-md flex items-center justify-between border-b border-antique-amber/30">
+<div>
+<h3 class="text-headline-sm font-headline-sm text-honey-gold">Your Confection Box</h3>
+<span class="text-label-badge font-label-badge text-soft-almond/70 uppercase">Hand-packed · Fresh from oil</span>
+</div>
+<button aria-label="Close cart" class="text-soft-almond hover:text-honey-gold p-1" id="closeCartBtn">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+</div>
+<!-- Items Container -->
+<div class="flex-1 overflow-y-auto p-space-md space-y-space-sm custom-scroll" id="cartItemsList">
+<div class="text-center py-12 text-on-surface-variant" id="emptyCartMessage">
+<span class="material-symbols-outlined text-4xl text-antique-amber/40 mb-2">shopping_basket</span>
+<p class="text-body-md font-body-md">Your confection box is currently empty.</p>
+<p class="text-body-sm font-body-sm text-outline mt-1">Select artisanal jalebi or samosas to get started.</p>
+</div>
+</div>
+<!-- Drawer Controls / Summary -->
+<div class="p-space-md bg-surface border-t border-antique-amber/20 space-y-3">
+<!-- Branch selection inside cart -->
+<div>
+<label class="text-label-badge font-label-badge text-espresso-charcoal uppercase block mb-1" for="cartBranchSelect">
+          Select Dispatch Kitchen
+        </label>
+<select class="w-full text-body-sm font-body-sm bg-creamy-ivory border border-antique-amber/30 rounded py-2 px-3 text-espresso-charcoal focus:border-antique-amber focus:ring-1 focus:ring-antique-amber" id="cartBranchSelect">
+<option value="Walton">Grato Walton (New Super Town)</option>
+<option value="DHA Phase 2">Grato DHA Phase 2</option>
+<option value="Johar Town">Grato Johar Town</option>
+<option value="Bahria Town">Grato Bahria Town</option>
+</select>
+</div>
+<!-- Optional Special Instructions -->
+<div>
+<label class="text-label-badge font-label-badge text-espresso-charcoal uppercase block mb-1" for="cartNotes">
+          Special Notes (Extra crisp / separate chutney)
+        </label>
+<input class="w-full text-body-sm font-body-sm bg-creamy-ivory border border-antique-amber/30 rounded py-2 px-3 text-espresso-charcoal focus:border-antique-amber focus:ring-1 focus:ring-antique-amber" id="cartNotes" placeholder="e.g. Extra hot jalebi please" type="text">
+</div>
+<!-- Subtotal -->
+<div class="flex items-center justify-between border-t border-antique-amber/20 pt-2 text-espresso-charcoal">
+<span class="text-label-lg font-label-lg">Estimated Subtotal</span>
+<span class="text-headline-sm font-headline-sm text-saffron-mahogany font-bold" id="cartSubtotal">Rs. 0</span>
+</div>
+<!-- WhatsApp Order Generator CTA -->
+<button class="w-full py-3 bg-gradient-to-r from-honey-gold to-antique-amber text-espresso-charcoal rounded text-label-lg font-label-lg font-bold flex items-center justify-center gap-2 shadow hover:brightness-105 active:scale-95 transition-all" id="sendWhatsAppOrderBtn">
+<span class="material-symbols-outlined text-lg">chat</span>
+        Complete Order on WhatsApp
+      </button>
+<p class="text-center text-[11px] text-on-surface-variant font-label-badge">
+        One tap routes formatted request to +92 305 743 7708
+      </p>
+</div>
+</aside>
+<!-- FOOTER (Shared Component Anchor) -->
+<footer class="bg-saffron-mahogany dark:bg-deep-burgundy-night text-honey-gold dark:text-honey-gold border-t border-antique-amber/20 flat no shadows">
+<div class="w-full px-margin-tablet lg:px-margin-desktop py-space-xl max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-space-lg">
+<!-- Brand & Copyright -->
+<div class="space-y-2 text-center md:text-left">
+<span class="text-headline-sm font-headline-sm text-honey-gold font-bold tracking-widest uppercase block">GRATO JALEBI</span>
+<p class="text-body-sm font-body-sm text-creamy-ivory/80 max-w-md">
+          © 2025 Grato Jalebi Lahore. Handcrafted daily in pure desi ghee. All rights reserved.
+        </p>
+</div>
+<!-- Directory Links -->
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-label-md font-label-md text-creamy-ivory/70">
+<a class="hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="#branches">Mall Road</a>
+<a class="hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="#branches">DHA Phase 2</a>
+<a class="hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="#branches">Johar Town</a>
+<a class="hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="#branches">Bahria Town</a>
+<a class="hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="#story">Heritage &amp; Story</a>
+<a class="text-honey-gold font-semibold hover:text-honey-gold transition-colors duration-200 hover:underline underline-offset-4" href="https://wa.me/923057437708">Direct WhatsApp Concierge</a>
+</div>
+</div>
+</footer>
+<!-- SCRIPT FOR CART, BRANCH TABS & FILTERING -->
+<script>
+    // State
+    const cart = [];
+
+    // Branch Information Registry
+    const branches = {
+      walton: {
+        name: "Grato Walton Flagship",
+        address: "New Super Town, Walton Road, Lahore, Punjab, Pakistan",
+        hours: "11:00 AM – 11:00 PM, Daily",
+        maps: "https://maps.app.goo.gl/cCkJEqzaotv5K7Dm6",
+        phone: "+92 305 743 7708"
+      },
+      dha: {
+        name: "Grato DHA Phase 2",
+        address: "Commercial Area, DHA Phase 2, Lahore, Pakistan",
+        hours: "11:00 AM – 11:30 PM, Daily",
+        maps: "https://maps.app.goo.gl/cCkJEqzaotv5K7Dm6",
+        phone: "+92 305 743 7708"
+      },
+      johar: {
+        name: "Grato Johar Town",
+        address: "Main Boulevard, Johar Town, Lahore, Pakistan",
+        hours: "11:00 AM – 11:00 PM, Daily",
+        maps: "https://maps.app.goo.gl/cCkJEqzaotv5K7Dm6",
+        phone: "+92 305 743 7708"
+      },
+      bahria: {
+        name: "Grato Bahria Town",
+        address: "Sector C Commercial, Bahria Town, Lahore, Pakistan",
+        hours: "12:00 PM – 11:00 PM, Daily",
+        maps: "https://maps.app.goo.gl/cCkJEqzaotv5K7Dm6",
+        phone: "+92 305 743 7708"
+      }
+    };
+
+    // DOM Elements
+    const openCartBtn = document.getElementById('openCartBtn');
+    const closeCartBtn = document.getElementById('closeCartBtn');
+    const cartDrawer = document.getElementById('cartDrawer');
+    const cartDrawerBackdrop = document.getElementById('cartDrawerBackdrop');
+    const cartItemsList = document.getElementById('cartItemsList');
+    const cartCountBadge = document.getElementById('cartCountBadge');
+    const cartSubtotal = document.getElementById('cartSubtotal');
+    const sendWhatsAppOrderBtn = document.getElementById('sendWhatsAppOrderBtn');
+    const cartBranchSelect = document.getElementById('cartBranchSelect');
+    const cartNotes = document.getElementById('cartNotes');
+
+    // Cart Open/Close
+    function toggleCart(isOpen) {
+      if (isOpen) {
+        cartDrawer.classList.remove('translate-x-full');
+        cartDrawerBackdrop.classList.remove('opacity-0', 'pointer-events-none');
+      } else {
+        cartDrawer.classList.add('translate-x-full');
+        cartDrawerBackdrop.classList.add('opacity-0', 'pointer-events-none');
+      }
+    }
+
+    openCartBtn.addEventListener('click', () => toggleCart(true));
+    closeCartBtn.addEventListener('click', () => toggleCart(false));
+    cartDrawerBackdrop.addEventListener('click', () => toggleCart(false));
+
+    // Add To Cart Function
+    window.addToCart = function(name, price) {
+      const existing = cart.find(item => item.name === name);
+      if (existing) {
+        existing.quantity += 1;
+      } else {
+        cart.push({ name, price, quantity: 1 });
+      }
+      renderCart();
+      toggleCart(true);
+    };
+
+    function updateQuantity(index, delta) {
+      cart[index].quantity += delta;
+      if (cart[index].quantity <= 0) {
+        cart.splice(index, 1);
+      }
+      renderCart();
+    }
+
+    function renderCart() {
+      const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+
+      cartCountBadge.textContent = totalCount;
+      cartSubtotal.textContent = `Rs. ${totalPrice.toLocaleString()}`;
+
+      if (cart.length === 0) {
+        cartItemsList.innerHTML = `
+          <div id="emptyCartMessage" class="text-center py-12 text-on-surface-variant">
+            <span class="material-symbols-outlined text-4xl text-antique-amber/40 mb-2">shopping_basket</span>
+            <p class="text-body-md font-body-md">Your confection box is currently empty.</p>
+            <p class="text-body-sm font-body-sm text-outline mt-1">Select artisanal jalebi or samosas to get started.</p>
+          </div>
+        `;
+        return;
+      }
+
+      cartItemsList.innerHTML = cart.map((item, index) => `
+        <div class="bg-surface p-3 border border-antique-amber/20 rounded flex items-center justify-between">
+          <div>
+            <h4 class="text-label-md font-label-md text-espresso-charcoal">${item.name}</h4>
+            <span class="text-body-sm font-body-sm text-saffron-mahogany font-semibold">Rs. ${(item.price * item.quantity).toLocaleString()}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="updateQuantity(${index}, -1)" class="w-6 h-6 rounded bg-soft-almond text-espresso-charcoal flex items-center justify-center font-bold hover:bg-antique-amber/30">-</button>
+            <span class="text-body-sm font-body-sm font-bold w-4 text-center">${item.quantity}</span>
+            <button onclick="updateQuantity(${index}, 1)" class="w-6 h-6 rounded bg-soft-almond text-espresso-charcoal flex items-center justify-center font-bold hover:bg-antique-amber/30">+</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Build & Send WhatsApp Order
+    sendWhatsAppOrderBtn.addEventListener('click', () => {
+      if (cart.length === 0) {
+        alert('Please add at least one confection to your cart first.');
+        return;
+      }
+
+      const branch = cartBranchSelect.value;
+      const notes = cartNotes.value.trim();
+      const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+
+      let msg = `*NEW ORDER - GRATO JALEBI LAHORE*\n`;
+      msg += `------------------------------------\n`;
+      msg += `*Selected Branch:* ${branch}\n`;
+      msg += `------------------------------------\n`;
+      msg += `*Items Ordered:*\n`;
+      cart.forEach(item => {
+        msg += `• ${item.name} x ${item.quantity} = Rs. ${item.price * item.quantity}\n`;
+      });
+      msg += `------------------------------------\n`;
+      msg += `*Subtotal:* Rs. ${totalPrice.toLocaleString()}\n`;
+      if (notes) {
+        msg += `*Special Instructions:* ${notes}\n`;
+      }
+      msg += `------------------------------------\n`;
+      msg += `Please confirm fresh batch availability and delivery schedule.`;
+
+      const encodedUrl = `https://wa.me/923057437708?text=${encodeURIComponent(msg)}`;
+      window.open(encodedUrl, '_blank');
+    });
+
+    // Branch Tabs Interaction
+    const branchTabs = document.querySelectorAll('.branch-tab');
+    const branchNameEl = document.getElementById('branchName');
+    const branchHoursEl = document.getElementById('branchHours');
+    const branchAddressEl = document.getElementById('branchAddress');
+    const branchDirectionsLink = document.getElementById('branchDirectionsLink');
+    const branchOrderBtn = document.getElementById('branchOrderBtn');
+
+    branchTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        branchTabs.forEach(t => {
+          t.classList.remove('active', 'bg-primary-container', 'text-creamy-ivory', 'border-antique-amber/40', 'shadow-sm');
+          t.classList.add('bg-creamy-ivory', 'text-espresso-charcoal', 'border-antique-amber/20');
+        });
+
+        tab.classList.add('active', 'bg-primary-container', 'text-creamy-ivory', 'border-antique-amber/40', 'shadow-sm');
+        tab.classList.remove('bg-creamy-ivory', 'text-espresso-charcoal', 'border-antique-amber/20');
+
+        const key = tab.getAttribute('data-branch');
+        const data = branches[key];
+
+        if (data) {
+          branchNameEl.textContent = data.name;
+          branchHoursEl.textContent = data.hours;
+          branchAddressEl.textContent = data.address;
+          branchDirectionsLink.href = data.maps;
+          branchOrderBtn.href = `https://wa.me/923057437708?text=${encodeURIComponent('Hello Grato, I would like to order specifically from the ' + data.name)}`;
+          cartBranchSelect.value = key === 'walton' ? 'Walton' : key === 'dha' ? 'DHA Phase 2' : key === 'johar' ? 'Johar Town' : 'Bahria Town';
+        }
+      });
+    });
+
+    // Menu Category Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const menuCards = document.querySelectorAll('.menu-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('active', 'bg-primary-container', 'text-creamy-ivory', 'border-antique-amber/40');
+          b.classList.add('bg-creamy-ivory', 'text-espresso-charcoal', 'border-antique-amber/20');
+        });
+        btn.classList.add('active', 'bg-primary-container', 'text-creamy-ivory', 'border-antique-amber/40');
+        btn.classList.remove('bg-creamy-ivory', 'text-espresso-charcoal', 'border-antique-amber/20');
+
+        const category = btn.getAttribute('data-category');
+        menuCards.forEach(card => {
+          if (category === 'all' || card.getAttribute('data-cat') === category) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+
+</body></html>

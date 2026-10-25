@@ -1,0 +1,6 @@
+{
+  "name": "Grato Jalebi — Lahore Haute Confectionery",
+  "description": "Artisanal haute confectionery in Lahore. Pure desi ghee jalebi, hand-folded samosas, and traditional savouries fried to order in disciplined micro-batches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
